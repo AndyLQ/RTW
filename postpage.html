@@ -18,12 +18,12 @@
             margin-top: 20px;
         }
 
-#contentheader {
-       padding: 10px 16px;
-       background: linear-gradient(130deg, rgba(0, 43, 101, 1) 0%, rgba(0, 104, 208, 1) 100%);
-       color: white;
-       display: block;
-   }
+        #contentheader {
+            padding: 10px 16px;
+            background: linear-gradient(130deg, rgba(0, 43, 101, 1) 0%, rgba(0, 104, 208, 1) 100%);
+            color: white;
+            display: block;
+        }
 
         #smoltitle {
             font-family: 'Lobster', cursive;
@@ -159,7 +159,7 @@
             width: 100%;
             height: 30%;
         }
-        
+
         #box2 a {
             text-decoration: none;
         }
@@ -238,7 +238,7 @@
             margin: 15px 0px 5px 25px;
             font-size: 30px;
         }
-        
+
         .cmt {
 
             margin-top: 20px;
@@ -246,56 +246,61 @@
             padding-bottom: 30px;
             margin-left: 30px;
             margin-right: 30px;
-            
+
         }
-        
+
         .flex1 img {
             width: 80%;
             display: block;
             margin: auto;
         }
-        
+
         .flex2 p {
-                     font-family: 'Roboto', serif;
+            font-family: 'Roboto', serif;
             font-size: 18px;
         }
-        
+
         .flex1 {
-            
-            flex:1;
+
+            flex: 1;
         }
-        
+
         .flex2 {
-            flex:5;
+            flex: 5;
         }
-        
-        
+
+        .commentHeading {
+            font-size: 30px;
+            margin-bottom: 0;
+            margin-top: 0;
+            font-family: 'Roboto', serif;
+        }
     </style>
 </head>
 
 <body>
-   <Header>
-    <div id="contentheader">
-        <div id="box1">
+    <Header>
+        <div id="contentheader">
+            <div id="box1">
+
+            </div>
+            <div id="box2">
+                <a href="Frontpage.html">
+
+                    <h1 id="smoltitle">Rate That Website</h1>
+                </a>
+
+
+            </div>
+            <div id=box3>
+
+
+            </div>
 
         </div>
-        <div id="box2">
-           <a href="Frontpage.html">
-               
-            <h1 id="smoltitle">Rate That Website</h1>
-           </a>
- 
-       
-        </div>
-        <div id=box3>
-
-
-        </div>
-
-    </div>
     </Header>
-    
-    
+
+
     <main>
         <div class="post">
             <div class="head">
@@ -307,11 +312,11 @@
                 </div>
                 <img class="img" src="rob.PNG" alt="">
                 <p class="descr">Rooby Leonardi is a website with an interactive resume. It slightly resembles Super Mario game and at the same time it displays the essential information about the creator such as education, skills, experiences, hobbies and others. All in a fun and user friendly way.
-</p>
+                </p>
             </div>
         </div>
-        
-        
+
+
         <div class="rating">
             <div class="top">
                 <div class="upper">
@@ -320,8 +325,8 @@
                     <hr class="line2">
                 </div>
             </div>
-            
-            
+
+
             <div class="main">
                 <div class="se1">
                     <div class="s1">
@@ -334,8 +339,8 @@
                         <p class="creat_desc">Creativity is based on how innovative, odd and playful the creator have been.
                             How each decistion has been rethinked and twisted to a design that plays together with the content.</p>
                     </div>
-                    
-                    
+
+
                     <div class="s2">
                         <p class="ratingtext">Usability</p>
                         <div class="bar">
@@ -346,8 +351,8 @@
                         <p class="usab_desc">Usability is based on how well the website works.
                             Can you get from a to b, not with how much ease from a to b. Did the website work as it should? or is it literally unusable?</p>
                     </div>
-                    
-                    
+
+
                     <div class="s3">
                         <p class="ratingtext">Design</p>
                         <div class="bar">
@@ -361,22 +366,23 @@
                 </div>
             </div>
         </div>
-        
-        
+
+
     </main>
     <div class="comment_section">
         <p class="commentText">Comments</p>
         <button class="addComment">Add Comment</button>
         <hr class="line3">
-        
+
         <section class="cmt">
-           <div class="flex1">
-                 <img src="data:image/jpeg;base64,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" alt="">
-           </div>
-          <div class="flex2">
-                    <p>I really think this is a innovative style of website / Resume. Im very impressed. The guy is kinda like a wiz.</p>
-          </div>
-      
+            <div class="flex1">
+                <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+            <div class="flex2">
+                <h5 class="commentHeading">This is a heading</h5>
+                <p>I really think this is a innovative style of website / Resume. Im very impressed. The guy is kinda like a wiz.</p>
+            </div>
+
         </section>
     </div>
 </body></html>
